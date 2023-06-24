@@ -8,9 +8,10 @@ docker build . -t hello-kubernetes:latest
 
 ## How to use
 ```
-$ docker run --rm  -p 80:8080 -d hello-kubernetes:latest
+$ docker run --rm --name hello-test -p 80:8080 -d hello-kubernetes:latest
 $ curl http://localhost 
 Hello Kubernetes!
-$
+$ docker stop hello-test
+
 ```
 
