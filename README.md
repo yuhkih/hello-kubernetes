@@ -2,7 +2,9 @@
 Nginx test container based on UBI8
 
 ## How to build
+```
 docker build . -t hello-kubernetes:latest 
+```
 
 ## How to use
 ```
