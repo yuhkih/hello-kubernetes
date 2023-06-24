@@ -10,7 +10,7 @@ docker build . -t hello-kubernetes:latest
 ```
 $ docker run --rm  -p 80:8080 -d hello-kubernetes:latest
 $ curl http://localhost 
-Hello Kubernetes
+Hello Kubernetes!
 $
 ```
 
