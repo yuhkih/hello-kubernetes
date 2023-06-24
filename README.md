@@ -5,7 +5,10 @@ Nginx test container based on UBI8
 docker build . -t hello-kubernetes:latest 
 
 ## How to use
-docker run -p 80:8080 -d hello-kubernetes  
-curl http://localolhost 
-
+```
+$ docker run --rm  -p 80:8080 -d hello-kubernetes:latest
+$ curl http://localolhost 
+Hello Kubernetes
+$
+```
 
